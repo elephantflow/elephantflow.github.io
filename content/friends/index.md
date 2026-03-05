@@ -4,7 +4,10 @@ date: 2026-03-05
 draft: false
 ---
 
-欢迎访问我的友站：
+这里收录与本站互链的优质站点：
 
-- [ElephantMilitary 军事快报](https://elephantflow.github.io/ElephantMilitary/)
-  - 全球军事资讯追踪与整点动态汇总。
+| 站点 | 简介 | 访问 |
+| --- | --- | --- |
+| ElephantMilitary 军事快报 | 全球军事资讯追踪与整点动态汇总。 | [立即访问](https://elephantflow.github.io/ElephantMilitary/) |
+
+> 建议在新标签页打开，便于继续浏览本站内容。
