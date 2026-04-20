@@ -2,18 +2,44 @@
 title: "ArXiv 每日精选 · 2026-04-19"
 date: 2026-04-20T06:00:00+08:00
 draft: false
-tags: ["ArXiv", "论文精选", "AI研究", "扩散模型", "生成模型", "视频生成", "动作生成", "视觉语言模型"]
+tags: ["ArXiv", "论文精选", "AI研究", "扩散模型", "生成模型", "视频生成", "动作生成", "视觉语言模型", "相机控制"]
 categories: ["ArXiv 每日精选"]
-description: "精选 7 篇 ArXiv 最新 AI 论文，涵盖扩散模型、Flow Matching、文本驱动动作生成、视频编辑、3D 生成、多语言面部动画等核心方向深度分析。"
+description: "精选 8 篇 ArXiv 最新 AI 论文，涵盖扩散模型、Flow Matching、相机可控视频生成、文本驱动动作生成、视频编辑、3D 生成、多语言面部动画等核心方向深度分析。"
 showToc: true
 tocopen: true
 ---
 
-> 📅 本期精选来自 2026-04-19 ArXiv 最新论文（提交于 2026-04-17），聚焦扩散模型、Flow Matching 稳定性、文本驱动动作生成、视频编辑评测、3D 布局生成等核心方向，共 7 篇。
+> 📅 本期精选来自 2026-04-19 ArXiv 最新论文（含近期重点论文），聚焦扩散模型、Flow Matching 稳定性、相机可控视频生成、文本驱动动作生成、视频编辑评测、3D 布局生成等核心方向，共 8 篇。
 
 ---
 
 ## 📄 论文精选
+
+### [CT-1: Vision-Language-Camera Models Transfer Spatial Reasoning Knowledge to Camera-Controllable Video Generation](https://arxiv.org/abs/2604.09201)
+
+**一句话总结：** 提出视觉-语言-相机模型 CT-1，通过将空间推理知识迁移到视频扩散模型，实现精准的相机轨迹控制视频生成，相机控制精度提升 25.7%。
+
+**研究问题：** 现有相机可控视频生成方法要么只能从文本提示获得模糊的相机控制，要么依赖费力的手动相机轨迹参数标注，难以在自动化场景中使用。
+
+**核心方法：** CT-1（Camera Transformer 1）是一个专门的视觉-语言-相机模型，核心包含三个部分：
+- 基于视觉-语言模块精确估计相机轨迹，将空间推理能力迁移到视频生成
+- 基于 Diffusion Transformer 架构，在频域引入**小波正则化损失（Wavelet-based Regularization Loss）**，有效学习复杂相机轨迹分布
+- 将估计出的轨迹注入视频扩散模型，实现与用户意图对齐的空间感知相机控制
+- 构建 CT-200K 大规模数据集（含 4700 万帧）专门支持训练
+
+**技术亮点：**
+- 频域小波正则化：捕捉相机轨迹的复杂分布，比直接在像素空间建模更有效
+- 视觉-语言→相机轨迹的知识蒸馏路径，无需手动标注轨迹参数
+- CT-200K 大规模数据集为相机可控视频生成提供重要基础资源
+- DiT 架构保证视频生成质量
+
+**实验结果：** 相机控制精度比现有方法提升 25.7%，生成视频质量高且相机运动与用户意图高度对齐。
+
+**应用场景：** 影视虚拟摄影、游戏内容生成、自动驾驶场景合成、世界模型数据生成。
+
+**研究价值：** ⭐⭐⭐⭐⭐（5/5）— 精准相机控制是视频生成走向专业化的关键能力，CT-1 将 VLM 空间推理与视频扩散深度融合，技术路线清晰，数据和方法双重贡献，是近期视频生成方向最值得关注的工作之一。
+
+---
 
 ### [Motion-Adapter: A Diffusion Model Adapter for Text-to-Motion Generation of Compound Actions](https://arxiv.org/abs/2604.16135)
 
@@ -190,10 +216,10 @@ tocopen: true
 
 ## 🏆 最值得关注的 3 篇
 
-1. **[The Amazing Stability of Flow Matching](https://arxiv.org/abs/2604.16079)** — 实证揭示 Flow Matching 对数据规模和架构扰动的惊人鲁棒性，对理解生成模型为何成功有重要理论意义。
-2. **[LaviGen: Repurposing 3D Generative Model for Autoregressive Layout Generation](https://arxiv.org/abs/2604.16299)** — 自回归+3D扩散的创新组合，物理合理性提升19%、速度提升65%，在具身智能数据生成方向有直接应用价值。
-3. **[VEFX: A Holistic Benchmark for Generic Video Editing and Visual Effects](https://arxiv.org/abs/2604.16272)** — 填补视频编辑评测空白，专用奖励模型设计精良，是视频生成社区重要基础设施。
+1. **[CT-1: Vision-Language-Camera Models Transfer Spatial Reasoning Knowledge to Camera-Controllable Video Generation](https://arxiv.org/abs/2604.09201)** — VLM 空间推理 × 视频扩散模型深度融合，相机控制精度提升 25.7%，精准相机控制是视频生成专业化的关键一步。
+2. **[The Amazing Stability of Flow Matching](https://arxiv.org/abs/2604.16079)** — 实证揭示 Flow Matching 对数据规模和架构扰动的惊人鲁棒性，对理解生成模型为何成功有重要理论意义。
+3. **[LaviGen: Repurposing 3D Generative Model for Autoregressive Layout Generation](https://arxiv.org/abs/2604.16299)** — 自回归+3D扩散的创新组合，物理合理性提升19%、速度提升65%，在具身智能数据生成方向有直接应用价值。
 
 ---
 
-*数据来源：ArXiv 2026-04-19（提交于 2026-04-17）| 分析生成时间：2026-04-20 10:52 (北京时间)*
+*数据来源：ArXiv 2026-04-19（含近期重点论文 CT-1 arXiv:2604.09201）| 分析生成时间：2026-04-20 10:56 (北京时间)*
