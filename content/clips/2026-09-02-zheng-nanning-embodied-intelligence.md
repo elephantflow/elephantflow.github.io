@@ -4,7 +4,7 @@ slug: "zheng-nanning-embodied-intelligence"
 date: 2026-09-02T09:00:00+08:00
 draft: false
 tags: ["具身智能", "世界模型", "多模态表征", "因果推理", "仿真", "三域融合", "机器人技术与应用", "剪藏"]
-categories: ["阅读剪藏"]
+categories: ["观点、人物与社会"]
 description: "具身智能不等于人形，判据是能否形成感知-认知-决策-行动-反馈闭环；四能力之上是信息—物理—认知三域融合"
 showToc: false
 ---

@@ -4,7 +4,7 @@ slug: "minimax-h3-max-real-time-video"
 date: 2026-08-31T09:00:00+08:00
 draft: false
 tags: ["视频生成", "实时生成", "MiniMax", "具身智能", "商业化", "开源生态", "量子位（QbitAI）", "剪藏"]
-categories: ["阅读剪藏"]
+categories: ["产品、产业与资本"]
 description: "MiniMax 联合 fal 推出的 H3 Max 把 5 秒 768p 视频的生成压到 3 秒以内（吞吐约为原版 H3 的 35 倍），生成终于快过播放，直接催生了「无主播、观众点播、AI 现做」的直播新形态——视频生成赛道的竞争维度，正从画质转向速度与生态黏性。"
 showToc: false
 ---

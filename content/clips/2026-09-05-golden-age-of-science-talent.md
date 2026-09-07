@@ -4,7 +4,7 @@ slug: "golden-age-of-science-talent"
 date: 2026-09-05T09:00:00+08:00
 draft: false
 tags: ["AI人才", "薪酬", "New Money", "隐性知识", "试错成本", "算力", "36氪（转载自远川科技评论）", "剪藏"]
-categories: ["阅读剪藏"]
+categories: ["产品、产业与资本"]
 description: "以姚顺雨（98 年生，清华姚班 → 普林斯顿 → OpenAI → 腾讯）和吴永辉（谷歌 17 年 → 字节）为样本，论证 AI 顶薪的本质不是给聪明定价，而是给行业前沿试错沉淀下来的隐性知识定价——而算力越贵、试错机会越少，这份隐性知识就越值钱。"
 showToc: false
 ---

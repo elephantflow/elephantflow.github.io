@@ -4,7 +4,7 @@ slug: "a16z-fei-fei-li-world-models"
 date: 2026-09-05T09:00:00+08:00
 draft: false
 tags: ["世界模型", "空间智能", "new view prediction", "相机控制", "3D重建", "稀疏重建", "a16z（公众号）", "剪藏"]
-categories: ["阅读剪藏"]
+categories: ["观点、人物与社会"]
 description: "World Labs 三人组把 Atlas 的核心原语定义为 new view prediction（新视角预测），并宣称它与 next-token prediction 等价、同属 AI-complete——用相机位姿作为模型原生输入统一了此前分裂的像素生成与 3D 重建两条赛道，把稀疏重建…"
 showToc: false
 ---

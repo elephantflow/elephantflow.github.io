@@ -4,7 +4,7 @@ slug: "zeno-1-collaborative-embodied"
 date: 2026-09-07T09:00:00+08:00
 draft: false
 tags: ["具身智能", "多机器人协作", "去中心化", "基础模型", "VLA", "世界模型", "机器之心", "剪藏"]
-categories: ["阅读剪藏"]
+categories: ["世界模型与具身智能"]
 description: "芝诺机器人（Zeno AI）发布 3B 参数、30Hz 本地闭环的 Zeno-1，让每台机器人各自跑同一份策略副本、不通信不调度，靠「闭环伙伴交互（CPI）」在真实物理环境里互为训练伙伴自学协作——协作行为不是模仿人类演示得来的，是从共享物理世界的闭环里涌现出来的。"
 showToc: false
 ---

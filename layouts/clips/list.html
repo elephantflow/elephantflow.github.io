@@ -1,0 +1,68 @@
+{{- define "main" }}
+<style>
+.clip-group {
+  font-size: 1.1rem;
+  margin: 2.2rem 0 .6rem;
+  padding-bottom: .35rem;
+  border-bottom: 1px solid var(--border);
+}
+.clip-group:first-of-type { margin-top: .5rem; }
+.clip-group .clip-count {
+  font-size: .78rem;
+  font-weight: 400;
+  color: var(--secondary);
+  margin-left: .45rem;
+}
+.clip-group-list .post-entry { margin-top: .8rem; }
+</style>
+
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>
+    {{ .Title }}
+    {{- if and (eq .Kind `section`) (.Param "ShowRssButtonInSectionTermList") }}
+    {{- with .OutputFormats.Get "rss" }}
+    <a href="{{ .RelPermalink }}" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+    {{- end }}
+    {{- end }}
+  </h1>
+  {{- with .Description }}
+  <div class="post-description">{{ . | markdownify }}</div>
+  {{- end }}
+</header>
+
+{{- $pages := .RegularPages }}
+{{- $groups := slice "世界模型与具身智能" "产品、产业与资本" "观点、人物与社会" }}
+
+{{- range $g := $groups }}
+  {{- $gp := where $pages "Params.categories" "intersect" (slice $g) }}
+  {{- with $gp }}
+  <h2 class="clip-group">{{ $g }}<span class="clip-count">{{ len . }} 篇</span></h2>
+  <div class="clip-group-list">
+    {{- range . }}
+    <article class="post-entry">
+      <header class="entry-header">
+        <h2 class="entry-hint-parent">{{ .Title }}</h2>
+      </header>
+      {{- if (ne (.Param "hideSummary") true) }}
+      <div class="entry-content">
+        <p>{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | htmlUnescape }}{{ end }}</p>
+      </div>
+      {{- end }}
+      {{- if not (.Param "hideMeta") }}
+      <footer class="entry-footer">{{- partial "post_meta.html" . -}}</footer>
+      {{- end }}
+      <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+    </article>
+    {{- end }}
+  </div>
+  {{- end }}
+{{- end }}
+{{- end }}

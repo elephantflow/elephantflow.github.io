@@ -4,7 +4,7 @@ slug: "motus2-self-evolving-world-model"
 date: 2026-09-01T09:00:00+08:00
 draft: false
 tags: ["世界模型", "具身智能", "触觉智能", "灵巧操作", "第一视角数据", "Scaling", "Motus2", "剪藏"]
-categories: ["阅读剪藏"]
+categories: ["世界模型与具身智能"]
 description: "Motus2 把策略、模拟器、评估器三件事塞进同一套权重（只用改注意力掩码来切换），让模型能自己生成候选动作、想象后果、给结果打分、再用打分回传更新策略——形成闭环自我进化，配合 13 万小时第一视角人类数据金字塔，把双臂灵巧手的真机成功率从 0% 拉到 84%。"
 showToc: false
 ---

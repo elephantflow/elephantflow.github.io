@@ -4,7 +4,7 @@ slug: "anthropic-mhs-physical-mcp"
 date: 2026-09-01T09:00:00+08:00
 draft: false
 tags: ["具身智能", "Agent", "MCP", "Anthropic", "机器人", "标准化", "机器之心", "剪藏"]
-categories: ["阅读剪藏"]
+categories: ["产品、产业与资本"]
 description: "Anthropic 推出硬件版 MCP——Model Hardware Standard（MHS），用标准化驱动把显微镜、机械臂、液体处理器等物理设备统一成「读/写」这类基本命令，让 Agent 能发现、理解并安全操控真实设备，把实验室硬件集成周期从数周压缩到数小时甚至数分钟。"
 showToc: false
 ---

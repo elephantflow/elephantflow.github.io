@@ -4,7 +4,7 @@ slug: "musk-ai-capital-siphon"
 date: 2026-09-03T09:00:00+08:00
 draft: false
 tags: ["AI资本", "算力基建", "AGI", "奇点", "宏观", "ARK Invest", "新智元（ASI启示录）", "剪藏"]
-categories: ["阅读剪藏"]
+categories: ["产品、产业与资本"]
 description: "ARK 提出 AI 基建高 IRR 虹吸全球资本、抽干传统行业氧气的挤出效应，马斯克认同；核心数据为推理 Token 一年增约 25 倍"
 showToc: false
 ---

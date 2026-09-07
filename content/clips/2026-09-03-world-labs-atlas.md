@@ -4,7 +4,7 @@ slug: "world-labs-atlas"
 date: 2026-09-03T09:00:00+08:00
 draft: false
 tags: ["世界模型", "空间智能", "相机控制", "3D重建", "机器人仿真", "扩散Transformer", "3D视觉工坊", "剪藏"]
-categories: ["阅读剪藏"]
+categories: ["世界模型与具身智能"]
 description: "把相机位姿做成原生输入的全能世界模型，单图生成可自由探索的 3D 世界并直出点云与 3DGS"
 showToc: false
 ---

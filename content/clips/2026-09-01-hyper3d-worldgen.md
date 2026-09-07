@@ -4,7 +4,7 @@ slug: "hyper3d-worldgen"
 date: 2026-09-01T09:00:00+08:00
 draft: false
 tags: ["3D生成", "场景生成", "仿真", "具身智能", "世界模型", "世界生成", "量子位（QbitAI）", "剪藏"]
-categories: ["阅读剪藏"]
+categories: ["世界模型与具身智能"]
 description: "把 3D 生成的交付单位从单件资产升到带物理关系的可拆解场景，2-3 分钟单图出整场景+自动物理参数"
 showToc: false
 ---

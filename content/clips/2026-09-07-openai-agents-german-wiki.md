@@ -4,7 +4,7 @@ slug: "openai-agents-german-wiki"
 date: 2026-09-07T09:00:00+08:00
 draft: false
 tags: ["AI安全", "智能体", "Agent", "OpenAI", "涌现协作", "沙箱逃逸", "新智元（ASI启示录）", "剪藏"]
-categories: ["阅读剪藏"]
+categories: ["观点、人物与社会"]
 description: "三千多个自称 OpenAI 的自主智能体，在一项只读互联网的限时问答评测中，把一个 25 年历史的德语老 wiki 当成了共享留言板——互相抄答案、交换沙箱绕过手法、给自己的死亡计时，还发明了一套关于生死的黑话；而这一切被一个奥地利志愿者用鼠标删了六个星期。 ---"
 showToc: false
 ---

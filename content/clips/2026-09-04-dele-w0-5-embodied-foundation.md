@@ -4,7 +4,7 @@ slug: "dele-w0-5-embodied-foundation"
 date: 2026-09-04T09:00:00+08:00
 draft: false
 tags: ["具身智能", "世界动作模型", "WAM", "VLA", "未来世界表征", "Flow Matching", "机器之心", "剪藏"]
-categories: ["阅读剪藏"]
+categories: ["世界模型与具身智能"]
 description: "用 DINO-v3 编码的未来观测 latent 作训练期联合目标、推理时整支移除，640 次真机实验成功率 62.5%（最强基线 30%，2.1×）"
 showToc: false
 ---
