@@ -36,7 +36,7 @@ buildExpired = false
 
   [params.homeInfoParams]
     Title = "Hi, I'm ElephantFlow 👋"
-    Content = "技术探索 · AI · 工程实践"
+    Content = "技术探索 · AI · 工程实践 · [📖 阅读剪藏](/clips/)"
 
   [[params.socialIcons]]
     name = "github"
@@ -48,6 +48,11 @@ buildExpired = false
     name = "文章"
     url = "/posts/"
     weight = 10
+  [[menu.main]]
+    identifier = "clips"
+    name = "剪藏"
+    url = "/clips/"
+    weight = 15
   [[menu.main]]
     identifier = "tags"
     name = "标签"
