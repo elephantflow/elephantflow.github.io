@@ -1,7 +1,7 @@
 ---
 title: "TeleDexter：灵巧手小脑在当下有了新的意义"
 slug: "teledexter-dexterous-hand-cerebellum"
-date: 2026-09-20T09:00:00+08:00
+date: 2026-09-19T09:00:00+08:00
 draft: false
 tags: ["TeleDexter", "CoRL 2026", "灵巧手", "手物交互", "手内重定向", "换指", "具身纪元", "剪藏"]
 categories: ["世界模型与具身智能"]
@@ -9,7 +9,7 @@ description: "具身纪元对谈 TeleDexter 两位一作（陈泽源、李浦豪
 showToc: false
 ---
 
-> **来源**：具身纪元（Marilyn Liu（对谈一作 陈泽源、李浦豪）） · 2026-09-20 · [原文链接](https://mp.weixin.qq.com/s/N61KnT_Y3Tfjlj45vcbO0w)
+> **来源**：具身纪元（Marilyn Liu（对谈一作 陈泽源、李浦豪）） · 2026-09-19 · [原文链接](https://mp.weixin.qq.com/s/N61KnT_Y3Tfjlj45vcbO0w)
 
 > **分类**：主线强相关（**到目前为止与触觉最直接的一篇**：它明说"姿态相同不代表效果相同"，且整篇在解决"手如何发力"；**但控制器本身不观测任何触觉信号**——这既是挑战也是我一直在找的可检验假说）
 
